@@ -12,9 +12,13 @@
 (function() {
 
     document.getElementById("run").addEventListener("click", function() {
+  
+})()});
 
-        // your code here
 
-    });
+var point = new Array (21);
+  for (var i=0; i< point.length; i++);
+  return point;
 
-})();
+
+
