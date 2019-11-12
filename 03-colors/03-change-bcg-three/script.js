@@ -9,8 +9,15 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
 
-    // your code here
 
-})();
+let btn = document.getElementById("run").addEventListener('click', function(){
+        let  color =
+        r= Math.floor(Math.random() * 16).toString(16);
+        g= Math.floor(Math.random() * 16).toString(16);
+        b= Math.floor(Math.random() * 16).toString(16);
+        
+        color = `#${r}${g}${b}`;
+
+        document.body.style.backgroundColor = color;
+});

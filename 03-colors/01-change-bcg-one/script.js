@@ -11,6 +11,10 @@
 
 (function() {
 
-    // your code here
+ 
+    document.addEventListener("click", (event)=>{
+        document.body.style.background= event.target.id ;
+    })
+    
 
 })();
