@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+
 
     var people = [
         {
@@ -89,6 +89,14 @@
         },
     ];
 
-    // your code here
+    people.forEach((person)=> {
+    
+    if( person.firstname== "Jean" , person.lastname== "Dupont"){
+        console.log(person.email);
+    };
+    
+        
+    });
+    
 
-})();
+

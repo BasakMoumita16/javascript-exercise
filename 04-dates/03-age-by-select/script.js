@@ -9,8 +9,16 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
-
-    // your code here
+/*(function() {
 
 })();
+*/
+
+function myfunction(a ,b ){
+    return ( a+b);
+    
+}
+var  dob  = document.getElementById("dob-day").innerHTML;
+var dobmonth = document.getElementById("field dob").innerHTML=myfunction;
+var dobyear = document.getElementById("field dob").innerHTML=myfunction;
+

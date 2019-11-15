@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+
 
     var fruits = [
         "apple",
@@ -26,6 +26,9 @@
         "cherry",
     ];
 
-    // your code here
 
-})();
+        for (var newline = 0; newline < fruits.length; newline++) {
+        console.log(fruits[newline]);
+    };
+
+0

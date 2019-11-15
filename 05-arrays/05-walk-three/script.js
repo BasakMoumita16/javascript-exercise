@@ -9,7 +9,7 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+
 
     var people = [
         {
@@ -35,10 +35,15 @@
         {
             firstname: "Marianna",
             lastname: "Coal",
-            email: "mcoal4@creativecommons.org",
+            email: "mcoal4@creativecommons.org", 
         },
     ];
 
-    // your code here
+    
+people.forEach((person)=> {
+    
+    console.log(person.firstname);
 
-})();
+    
+});
+

@@ -9,7 +9,12 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
+//(function() {//
+
+    
+
+
+
 
     var fruits = [
         "apple",
@@ -26,6 +31,6 @@
         "cherry",
     ];
 
-    // your code here
-
-})();
+    document.getElementById("run").addEventListener("click", function () {
+    var newfruit = fruits[fruits.length-9];
+    console.log(newfruit);});

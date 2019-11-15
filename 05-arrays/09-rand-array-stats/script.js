@@ -9,8 +9,26 @@
 // NOTE: don't focus on the existing code structure for now.
 // You will have time to focus on it later.
 
-(function() {
 
-    // your code here
 
-})();
+
+
+
+document.getElementById("run").addEventListener("click", function () {
+
+ // random number//
+
+let tds = document.querySelectorAll('td');
+tds.forEach(td => {
+    var getrandom = Math.floor((Math.random () * 100) +1 );
+        td.innerHTML= getrandom;
+        
+})
+});
+
+// Smallest num//
+
+var newarr = [];
+
+newarr = newarr.push(getrandom);
+console.log(newarr);
